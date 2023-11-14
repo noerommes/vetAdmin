@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html {
+  min-height: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: black;
+  min-height: 100%;
+  padding-bottom: 5rem;
+}
+.titulo {
+  font-weight: bold;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: white;
+}
+.container {
+    background-color: white;
+    border-radius: 2rem;
+}
+header {
+  margin-top: 3rem;
+}
+header h1 {
+  color: white;
+}
+.lista-citas .cita {
+  border-bottom: 1px solid #e1e1e1;
+  padding: 2rem;
+  padding-bottom: 3rem;
+  
+}
+.lista-citas .cita:last-of-type {
+  border-bottom: 0;
+}
+
+legend{
+  text-align: center;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+#administra{
+  text-align: center;
+}
+
+.lista-citas .cita p {
+  margin:0;
+}
+.lista-citas .cita button {
+  margin-top: 1rem!important;
+}
+.lista-citas .cita span {
+  font-weight: bold;
+}
+textarea {
+    height: 50px!important;
+}
+
+svg {
+  width: 21px;
+}
